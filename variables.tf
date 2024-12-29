@@ -12,7 +12,7 @@ variable "ami_filter" {
   })
 
   default ={
-    name = "bitnami-tomcat-*-x86_64-hvm-ebs-nami"
+    name = "bitnami-tomcat-*-x86_64-hvm-ebs-nami",
     owner = ""979382823631""
   }
 }
@@ -25,7 +25,7 @@ variable "Environment" {
   })
 
   default = {
-    name= "dev"
+    name= "dev",
     network_prefix = "10.0"
   }
 }
